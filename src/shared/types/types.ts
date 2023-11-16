@@ -7,9 +7,9 @@ export type Task = {
     status: string;
 };
 
-export type TasksAray = Array<Task>;
+export type TasksArray = Array<Task>;
 
-export git inittype states = {
+export type States = {
     backlog: string;
     ready: string;
     in_progress: string;

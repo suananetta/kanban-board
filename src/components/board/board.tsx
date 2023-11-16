@@ -1,25 +1,27 @@
 import styled from '@emotion/styled';
 import { Trello } from '@geist-ui/icons';
-import { Card } from 'components/card/card';
+import { Cards } from 'components/cards/cards';
+import React from 'react';
 
-export const Board = () => (
+export const Board = () => {
+    return (
     <Wrapper>
         <Header>
             <Trello size={48}/>
             <HeaderTitle>Kanban Board</HeaderTitle>
-            <Card/>
         </Header>
+        <Cards/>
     </Wrapper>
-);
+    )
+};
 
 const Wrapper = styled.div`
-    overflow: hidden;
     padding: 60px;
-    width: 100%;
     height: 100vh;
 `;
 
 const Header = styled.header`
+    width: 100%;
     display: flex;
     align-items: center;
 `;
