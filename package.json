@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@geist-ui/core": "^2.3.8",
@@ -13,10 +14,11 @@
     "@testing-library/user-event": "^13.5.0",
     "effector": "^22.8.7",
     "effector-react": "^22.5.4",
+    "eslint": "^8.0.0",
     "patronum": "^1.20.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.69.5",
     "uniqid": "^5.4.0",
     "web-vitals": "^2.1.4"
@@ -48,7 +50,7 @@
   },
   "devDependencies": {
     "@types/uniqid": "^5.3.4",
-    "eslint": "^5.16.0",
-    "typescript": "^5.2.2"
+    "eslint-config-react-app": "^7.0.1",
+    "typescript": "^4.9.5"
   }
 }

@@ -5,13 +5,13 @@ import React from 'react';
 
 export const Board = () => {
     return (
-    <Wrapper>
-        <Header>
-            <Trello size={48}/>
-            <HeaderTitle>Kanban Board</HeaderTitle>
-        </Header>
-        <Cards/>
-    </Wrapper>
+        <Wrapper>
+            <Header>
+                <Trello size={48}/>
+                <HeaderTitle>Kanban Board</HeaderTitle>
+            </Header>
+            <Cards/>
+        </Wrapper>
     )
 };
 
